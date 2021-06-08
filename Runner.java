@@ -65,7 +65,7 @@ public class Runner {
         writeImage("VectorMeshSmoothed.png",regions,triangles,pixels.length,pixels[0].length);
         sg.setRegionNumbers(regionNumbers);
         sg.createSolidFileOBJ(regions, "Solid_OBJ.obj");
-        sg.createSolidFileSTL(regions, "Solid_STL.stl");
+        // sg.createSolidFileSTL(regions, "Solid_STL.stl");
     }//end newImage
     
     public void cleanOBJ(){
